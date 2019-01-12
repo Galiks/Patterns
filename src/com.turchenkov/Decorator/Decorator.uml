@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.turchenkov.Decorator.Decorator</OriginalElement>
+  <nodes>
+    <node x="132.0" y="158.0">com.turchenkov.Decorator.TomatoPizza</node>
+    <node x="336.75" y="79.0">com.turchenkov.Decorator.ItalianPizza</node>
+    <node x="218.0" y="0.0">com.turchenkov.Decorator.Pizza</node>
+    <node x="72.75" y="79.0">com.turchenkov.Decorator.Decorator</node>
+    <node x="0.0" y="158.0">com.turchenkov.Decorator.CheesePizza</node>
+    <node x="192.75" y="79.0">com.turchenkov.Decorator.BulgerianPizza</node>
+    <node x="0.0" y="232.0">com.turchenkov.Decorator.Program</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.turchenkov.Decorator.ItalianPizza" target="com.turchenkov.Decorator.Pizza">
+      <point x="0.0" y="-14.5" />
+      <point x="389.75" y="54.0" />
+      <point x="279.6666666666667" y="54.0" />
+      <point x="24.666666666666686" y="14.5" />
+    </edge>
+    <edge source="com.turchenkov.Decorator.CheesePizza" target="com.turchenkov.Decorator.Decorator">
+      <point x="0.0" y="-14.5" />
+      <point x="56.0" y="133.0" />
+      <point x="97.75" y="133.0" />
+      <point x="-25.0" y="14.5" />
+    </edge>
+    <edge source="com.turchenkov.Decorator.TomatoPizza" target="com.turchenkov.Decorator.Decorator">
+      <point x="0.0" y="-14.5" />
+      <point x="190.0" y="133.0" />
+      <point x="147.75" y="133.0" />
+      <point x="25.0" y="14.5" />
+    </edge>
+    <edge source="com.turchenkov.Decorator.Decorator" target="com.turchenkov.Decorator.Pizza">
+      <point x="0.0" y="-14.5" />
+      <point x="122.75" y="54.0" />
+      <point x="230.33333333333334" y="54.0" />
+      <point x="-24.666666666666657" y="14.5" />
+    </edge>
+    <edge source="com.turchenkov.Decorator.BulgerianPizza" target="com.turchenkov.Decorator.Pizza">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="50.0" y="54.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
