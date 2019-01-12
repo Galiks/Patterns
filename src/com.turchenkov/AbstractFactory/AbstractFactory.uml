@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.turchenkov.AbstractFactory.Program</OriginalElement>
+  <nodes>
+    <node x="616.9323529411764" y="338.0">com.turchenkov.AbstractFactory.Ork</node>
+    <node x="348.71568627450984" y="304.0">com.turchenkov.AbstractFactory.Client</node>
+    <node x="775.1323529411765" y="182.0">com.turchenkov.AbstractFactory.Run</node>
+    <node x="10.5" y="182.0">com.turchenkov.AbstractFactory.Bow</node>
+    <node x="360.5" y="495.0">com.turchenkov.AbstractFactory.Program</node>
+    <node x="326.188725490196" y="171.0">com.turchenkov.AbstractFactory.AbstractFactory</node>
+    <node x="519.1774509803921" y="0.0">com.turchenkov.AbstractFactory.Movement</node>
+    <node x="266.17745098039217" y="0.0">com.turchenkov.AbstractFactory.Weapon</node>
+    <node x="70.24509803921563" y="338.0">com.turchenkov.AbstractFactory.Angel</node>
+    <node x="147.5" y="182.0">com.turchenkov.AbstractFactory.Fly</node>
+    <node x="574.188725490196" y="182.0">com.turchenkov.AbstractFactory.Sword</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.turchenkov.AbstractFactory.AbstractFactory" target="com.turchenkov.AbstractFactory.Weapon">
+      <point x="-57.0" y="-36.5" />
+      <point x="383.188725490196" y="121.0" />
+      <point x="334.42745098039217" y="121.0" />
+      <point x="9.75" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Bow" target="com.turchenkov.AbstractFactory.Weapon">
+      <point x="0.0" y="-25.5" />
+      <point x="69.0" y="111.0" />
+      <point x="295.42745098039217" y="111.0" />
+      <point x="-29.25" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Sword" target="com.turchenkov.AbstractFactory.Weapon">
+      <point x="0.0" y="-25.5" />
+      <point x="632.688725490196" y="111.0" />
+      <point x="353.92745098039217" y="111.0" />
+      <point x="29.25" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Ork" target="com.turchenkov.AbstractFactory.AbstractFactory">
+      <point x="-91.19999999999993" y="-36.5" />
+      <point x="639.7323529411765" y="274.0" />
+      <point x="516.188725490196" y="274.0" />
+      <point x="76.0" y="36.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Angel" target="com.turchenkov.AbstractFactory.Weapon">
+      <point x="-91.19999999999999" y="-36.5" />
+      <point x="93.04509803921565" y="284.0" />
+      <point x="0.0" y="284.0" />
+      <point x="0.0" y="101.0" />
+      <point x="275.92745098039217" y="101.0" />
+      <point x="-48.75" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Client" target="com.turchenkov.AbstractFactory.Weapon">
+      <point x="-64.66666666666669" y="-70.5" />
+      <point x="381.04901960784315" y="264.0" />
+      <point x="300.25" y="264.0" />
+      <point x="300.25" y="121.0" />
+      <point x="314.92745098039217" y="121.0" />
+      <point x="-9.75" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Ork" target="com.turchenkov.AbstractFactory.Movement">
+      <point x="45.60000000000002" y="-36.5" />
+      <point x="776.5323529411764" y="284.0" />
+      <point x="764.6323529411765" y="284.0" />
+      <point x="764.6323529411765" y="81.0" />
+      <point x="618.9274509803921" y="81.0" />
+      <point x="33.25" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Run" target="com.turchenkov.AbstractFactory.Movement">
+      <point x="0.0" y="-25.5" />
+      <point x="841.6323529411765" y="71.0" />
+      <point x="641.0941176470589" y="71.0" />
+      <point x="55.416666666666686" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Angel" target="com.turchenkov.AbstractFactory.Bow">
+      <point x="-45.599999999999966" y="-36.5" />
+      <point x="138.64509803921567" y="274.0" />
+      <point x="69.0" y="274.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.AbstractFactory" target="com.turchenkov.AbstractFactory.Movement">
+      <point x="57.0" y="-36.5" />
+      <point x="497.188725490196" y="151.0" />
+      <point x="574.5941176470589" y="151.0" />
+      <point x="-11.083333333333314" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Program" target="com.turchenkov.AbstractFactory.Client">
+      <point x="21.125" y="-25.5" />
+      <point x="466.125" y="470.0" />
+      <point x="494.21568627450984" y="470.0" />
+      <point x="48.5" y="70.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Angel" target="com.turchenkov.AbstractFactory.Fly">
+      <point x="0.0" y="-36.5" />
+      <point x="184.24509803921563" y="284.0" />
+      <point x="214.0" y="284.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Angel" target="com.turchenkov.AbstractFactory.AbstractFactory">
+      <point x="91.19999999999999" y="-36.5" />
+      <point x="275.4450980392156" y="284.0" />
+      <point x="364.188725490196" y="284.0" />
+      <point x="-76.0" y="36.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Client" target="com.turchenkov.AbstractFactory.AbstractFactory">
+      <point x="0.0" y="-70.5" />
+      <point x="445.71568627450984" y="284.0" />
+      <point x="440.188725490196" y="284.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Program" target="com.turchenkov.AbstractFactory.Ork">
+      <point x="63.375" y="-25.5" />
+      <point x="508.375" y="470.0" />
+      <point x="730.9323529411764" y="470.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Ork" target="com.turchenkov.AbstractFactory.Sword">
+      <point x="-45.59999999999991" y="-36.5" />
+      <point x="685.3323529411765" y="264.0" />
+      <point x="632.688725490196" y="264.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Fly" target="com.turchenkov.AbstractFactory.Movement">
+      <point x="0.0" y="-25.5" />
+      <point x="214.0" y="131.0" />
+      <point x="530.2607843137255" y="131.0" />
+      <point x="-55.416666666666686" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Ork" target="com.turchenkov.AbstractFactory.Weapon">
+      <point x="0.0" y="-36.5" />
+      <point x="730.9323529411764" y="274.0" />
+      <point x="701.688725490196" y="274.0" />
+      <point x="701.688725490196" y="101.0" />
+      <point x="373.42745098039217" y="101.0" />
+      <point x="48.75" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Angel" target="com.turchenkov.AbstractFactory.Movement">
+      <point x="45.60000000000002" y="-36.5" />
+      <point x="229.84509803921566" y="274.0" />
+      <point x="311.25" y="274.0" />
+      <point x="311.25" y="141.0" />
+      <point x="552.4274509803921" y="141.0" />
+      <point x="-33.25" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Client" target="com.turchenkov.AbstractFactory.Movement">
+      <point x="64.66666666666669" y="-70.5" />
+      <point x="510.3823529411765" y="284.0" />
+      <point x="739.0220588235294" y="284.0" />
+      <point x="739.0220588235294" y="91.0" />
+      <point x="596.7607843137255" y="91.0" />
+      <point x="11.083333333333371" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Ork" target="com.turchenkov.AbstractFactory.Run">
+      <point x="91.20000000000005" y="-36.5" />
+      <point x="822.1323529411765" y="284.0" />
+      <point x="841.6323529411765" y="284.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.AbstractFactory.Program" target="com.turchenkov.AbstractFactory.Angel">
+      <point x="-63.375" y="-25.5" />
+      <point x="381.625" y="470.0" />
+      <point x="184.24509803921563" y="470.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="528.0" y="156.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
