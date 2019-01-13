@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.turchenkov.Observer</OriginalElement>
+  <nodes>
+    <node x="249.69242424242424" y="588.0">com.turchenkov.Observer.Program</node>
+    <node x="77.46893939393937" y="134.5">com.turchenkov.Observer.Observable</node>
+    <node x="222.0" y="365.0">com.turchenkov.Observer.Broker</node>
+    <node x="429.79999999999995" y="101.0">com.turchenkov.Observer.StockInfo</node>
+    <node x="452.0" y="343.0">com.turchenkov.Observer.Stock</node>
+    <node x="0.0" y="376.0">com.turchenkov.Observer.Bank</node>
+    <node x="269.12651515151515" y="0.0">com.turchenkov.Observer.Observer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.turchenkov.Observer.Bank" target="com.turchenkov.Observer.Observable">
+      <point x="-25.25" y="-59.5" />
+      <point x="75.75" y="323.0" />
+      <point x="101.16893939393935" y="323.0" />
+      <point x="-94.8" y="47.5" />
+    </edge>
+    <edge source="com.turchenkov.Observer.Stock" target="com.turchenkov.Observer.Observer">
+      <point x="94.79999999999995" y="-92.5" />
+      <point x="665.3" y="323.0" />
+      <point x="630.6174242424242" y="323.0" />
+      <point x="630.6174242424242" y="71.0" />
+      <point x="426.62651515151515" y="71.0" />
+      <point x="70.0" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.Observer.Bank" target="com.turchenkov.Observer.StockInfo">
+      <point x="75.75" y="-59.5" />
+      <point x="176.75" y="313.0" />
+      <point x="449.29999999999995" y="313.0" />
+      <point x="-58.5" y="81.0" />
+    </edge>
+    <edge source="com.turchenkov.Observer.Broker" target="com.turchenkov.Observer.Observable">
+      <point x="-26.25" y="-70.5" />
+      <point x="300.75" y="293.0" />
+      <point x="243.3689393939394" y="293.0" />
+      <point x="47.400000000000034" y="47.5" />
+    </edge>
+    <edge source="com.turchenkov.Observer.Program" target="com.turchenkov.Observer.Bank">
+      <point x="-42.25" y="-25.5" />
+      <point x="291.94242424242424" y="558.0" />
+      <point x="151.5" y="558.0" />
+      <point x="50.5" y="59.5" />
+    </edge>
+    <edge source="com.turchenkov.Observer.Program" target="com.turchenkov.Observer.Broker">
+      <point x="-14.083333333333371" y="-25.5" />
+      <point x="320.10909090909087" y="548.0" />
+      <point x="274.5" y="548.0" />
+      <point x="-52.5" y="70.5" />
+    </edge>
+    <edge source="com.turchenkov.Observer.Stock" target="com.turchenkov.Observer.StockInfo">
+      <point x="-47.40000000000009" y="-92.5" />
+      <point x="523.0999999999999" y="323.0" />
+      <point x="527.3" y="323.0" />
+      <point x="19.5" y="81.0" />
+    </edge>
+    <edge source="com.turchenkov.Observer.Bank" target="com.turchenkov.Observer.Observer">
+      <point x="-75.75" y="-59.5" />
+      <point x="25.25" y="323.0" />
+      <point x="34.94999999999999" y="323.0" />
+      <point x="34.94999999999999" y="71.0" />
+      <point x="286.62651515151515" y="71.0" />
+      <point x="-70.0" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.Observer.Stock" target="com.turchenkov.Observer.Observable">
+      <point x="-94.80000000000007" y="-92.5" />
+      <point x="475.69999999999993" y="283.0" />
+      <point x="290.7689393939394" y="283.0" />
+      <point x="94.80000000000001" y="47.5" />
+    </edge>
+    <edge source="com.turchenkov.Observer.Observable" target="com.turchenkov.Observer.Observer">
+      <point x="0.0" y="-47.5" />
+      <point x="195.96893939393937" y="81.0" />
+      <point x="321.62651515151515" y="81.0" />
+      <point x="-35.0" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.Observer.Broker" target="com.turchenkov.Observer.Observer">
+      <point x="26.25" y="-70.5" />
+      <point x="353.25" y="303.0" />
+      <point x="360.4424242424242" y="303.0" />
+      <point x="360.4424242424242" y="81.0" />
+      <point x="356.62651515151515" y="81.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.Observer.Program" target="com.turchenkov.Observer.Stock">
+      <point x="42.25" y="-25.5" />
+      <point x="376.44242424242424" y="558.0" />
+      <point x="511.25" y="558.0" />
+      <point x="-59.25" y="92.5" />
+    </edge>
+    <edge source="com.turchenkov.Observer.Broker" target="com.turchenkov.Observer.StockInfo">
+      <point x="78.75" y="-70.5" />
+      <point x="405.75" y="323.0" />
+      <point x="488.29999999999995" y="323.0" />
+      <point x="-19.5" y="81.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="606.0" y="249.5" />
+  <SelectedNodes>
+    <node>com.turchenkov.Observer.Program</node>
+    <node>com.turchenkov.Observer.Observable</node>
+    <node>com.turchenkov.Observer.Broker</node>
+    <node>com.turchenkov.Observer.StockInfo</node>
+    <node>com.turchenkov.Observer.Stock</node>
+    <node>com.turchenkov.Observer.Bank</node>
+    <node>com.turchenkov.Observer.Observer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

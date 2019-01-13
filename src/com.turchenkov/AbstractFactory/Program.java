@@ -128,7 +128,7 @@ class Client {
         movement.move();
     }
 
-    void hit(){
+    void hit() {
         weapon.hit();
     }
 }

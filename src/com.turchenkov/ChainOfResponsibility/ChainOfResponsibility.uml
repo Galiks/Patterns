@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.turchenkov.ChainOfResponsibility</OriginalElement>
+  <nodes>
+    <node x="194.73055555555555" y="0.0">com.turchenkov.ChainOfResponsibility.Receiver</node>
+    <node x="208.0" y="292.0">com.turchenkov.ChainOfResponsibility.BankPayment</node>
+    <node x="104.0" y="168.0">com.turchenkov.ChainOfResponsibility.Payment</node>
+    <node x="220.7527777777778" y="393.0">com.turchenkov.ChainOfResponsibility.Program</node>
+    <node x="0.0" y="292.0">com.turchenkov.ChainOfResponsibility.PayPalTransfer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.turchenkov.ChainOfResponsibility.Program" target="com.turchenkov.ChainOfResponsibility.PayPalTransfer">
+      <point x="-67.6" y="-25.5" />
+      <point x="237.65277777777777" y="373.0" />
+      <point x="93.5" y="373.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.ChainOfResponsibility.Program" target="com.turchenkov.ChainOfResponsibility.BankPayment">
+      <point x="0.0" y="-25.5" />
+      <point x="305.2527777777778" y="373.0" />
+      <point x="301.5" y="373.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.turchenkov.ChainOfResponsibility.Payment" target="com.turchenkov.ChainOfResponsibility.Receiver">
+      <point x="0.0" y="-37.0" />
+      <point x="197.5" y="148.0" />
+      <point x="274.23055555555555" y="148.0" />
+      <point x="-53.0" y="59.0" />
+    </edge>
+    <edge source="com.turchenkov.ChainOfResponsibility.PayPalTransfer" target="com.turchenkov.ChainOfResponsibility.Payment">
+      <point x="0.0" y="-25.5" />
+      <point x="93.5" y="267.0" />
+      <point x="122.69999999999999" y="267.0" />
+      <point x="-74.8" y="37.0" />
+    </edge>
+    <edge source="com.turchenkov.ChainOfResponsibility.BankPayment" target="com.turchenkov.ChainOfResponsibility.Receiver">
+      <point x="62.33333333333334" y="-25.5" />
+      <point x="363.83333333333337" y="148.0" />
+      <point x="327.23055555555555" y="148.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="com.turchenkov.ChainOfResponsibility.Program" target="com.turchenkov.ChainOfResponsibility.Payment">
+      <point x="-33.80000000000001" y="-25.5" />
+      <point x="271.4527777777778" y="363.0" />
+      <point x="197.5" y="363.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="com.turchenkov.ChainOfResponsibility.Program" target="com.turchenkov.ChainOfResponsibility.Receiver">
+      <point x="67.59999999999997" y="-25.5" />
+      <point x="372.85277777777776" y="373.0" />
+      <point x="416.5" y="373.0" />
+      <point x="416.5" y="148.0" />
+      <point x="433.23055555555555" y="148.0" />
+      <point x="106.0" y="59.0" />
+    </edge>
+    <edge source="com.turchenkov.ChainOfResponsibility.BankPayment" target="com.turchenkov.ChainOfResponsibility.Payment">
+      <point x="0.0" y="-25.5" />
+      <point x="301.5" y="267.0" />
+      <point x="272.30000000000007" y="267.0" />
+      <point x="74.80000000000007" y="37.0" />
+    </edge>
+    <edge source="com.turchenkov.ChainOfResponsibility.PayPalTransfer" target="com.turchenkov.ChainOfResponsibility.Receiver">
+      <point x="-62.33333333333337" y="-25.5" />
+      <point x="31.16666666666663" y="267.0" />
+      <point x="61.42222222222222" y="267.0" />
+      <point x="61.42222222222222" y="138.0" />
+      <point x="221.23055555555555" y="138.0" />
+      <point x="-106.0" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="614.5" y="95.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
